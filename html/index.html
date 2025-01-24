@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Dancing+Script&family=Eczar:wght@400..800&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=IM+Fell+English+SC&family=Indie+Flower&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika+Negative:wght@300..700&family=Sofia&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>homie</title>
+</head>
+<body>
+    <main>
+        <!-- Navigation starts -->
+        <nav class="flex flex-col md:flex-row justify-between items-center bg-orange-100 py-3 px-5 shadow" style="font-family:Cinzel;">
+            <div class="font-bold">
+                <h1 class="text-red-400 uppercase">homie</h1>
+            </div>
+            <ul class="text-yellow-900 font-bold flex gap-3 mt-3 md:mt-0">
+                <li><a href="#">home</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">home</a></li>
+            </ul>
+        </nav>
+       
+        <!-- Hero Section -->
+        <div class="py-20 text-start relative  bg-cover bg-center h-100" style="background-image:url(../imgs/pexels-cottonbro-3094041.jpg);">
+            <div class="container mx-auto px-4">
+                <h3 class="text-red-500 font-bold uppercase text-xl pb-3">
+                    homie is here for you
+                </h3>
+                <p class="text-white text-start max-w-2xl ">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    delectus magnam assumenda distinctio officia reiciendis repudiandae.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Eum unde recusandae ullam deleniti. Voluptatum corrupti magni
+                     necessitatibus tempore sunt quas.
+                </p>
+            </div>
+        </div>
+         <!-- Image Grid Section -->
+       
+         <div class="container mx-auto px-4 mt-20" style="font-family:Cinzel;">
+            <h1 class="uppercase text-red-300 font-semibold  my-10 text-center text-lg " style="font-family:Cinzel;"> ourproducts here </h1>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">            
+                <img src="../imgs/forks.webp" alt="" class="w-full h-64 object-fill rounded-lg">
+                <img src="../imgs/cub.jfif" alt="" class="w-full h-64 object-fill rounded-lg">
+                <img src="../imgs/plates.jfif" alt="" class="w-full h-64 object-fill rounded-lg">
+                <img src="../imgs/knife.jfif" alt="" class="w-full h-64 object-fill rounded-lg">
+                <img src="../imgs/glass.jfif" alt="" class="w-full h-64 object-fill rounded-lg">
+                <img src="../imgs/spoon.avif" alt="" class="w-full h-64 object-fill rounded-lg">
+            </div>
+        </div> 
+
+         <!-- advertisment  -->
+         <div class="flex flex-col md:flex-row justify-between items-center mt-5 p-10 bg-orange-100 ">
+
+            <img src="../imgs/colourful-plates.jpg"  
+                alt="Colourful Plates" 
+                class="rounded-lg w-full md:w-1/2 lg:w-1/3 mx-auto md:mx-0 mb-6 md:mb-0">
+                <div class="text-center md:text-left md:ml-10 max-w-md">
+                    <h3 class="text-red-400 text-xl font-bold capitalize" style="font-family:Cinzel;">
+                        Beautiful home needs a touch of colours
+                    </h3>
+                    <p class="text-gray-600 mt-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, aspernatur! Autem non voluptates reiciendis, unde culpa fugiat iste esse quis!
+                    </p>
+                    <button class="mt-5 bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-600 transition duration-300">
+                        Discover
+                    </button>
+                </div>
+            </div>
+         <!--  contact us  -->
+        <section style="font-family:Cinzel;">
+            <h1 class="text-red-400 font-bold text-lg my-10 capitalize text-center"> contact us </h1>
+           <div class=" md:grid grid-cols-2 gap-10 mt-4 mx-10 ">
+            <!-- name -->
+                <div class="name flex flex-col"> 
+                     <label for="fn" class="text-red-400 font-semibold mb-3 pl-5"> your first neme</label>
+                     <input type="text" id="fn" class="px-10 py-2 border-2 rounded-lg text-orange-200 bg-red-50 outline-red-700"">
+                </div>
+            <!-- number -->
+                 <div class="number flex flex-col">
+                     <label for="num" class="text-red-400 font-semibold mb-3 pl-5""> your telephone number </label>
+                    <input type="text" id="num"class="px-10 py-2 border-2 rounded-lg text-orange-200 bg-red-50 outline-red-700">
+                 </div>
+            <!-- adress -->
+                <div class="adress flex flex-col">
+                      <label for="add" class="text-red-400 font-semibold mb-3 pl-5""> adress</label>
+                      <input type="text" id="add" class="px-10 py-2 border-2 rounded-lg text-orange-200 bg-red-50 outline-red-700">
+                </div>
+            <!-- country -->
+                 <div class="country flex flex-col">
+                    <label for="country" class="text-red-400 font-semibold mb-3 pl-5""> country </label>
+                    <input type="text" id="country" class="px-10 py-2 border-2 rounded-lg text-orange-200 bg-red-50 outline-red-700">
+                 </div>
+           </div>
+           <div class="text-center my-5">
+            <button class="text-red-200 bg-red-600 rounded-lg px-10 py-3  hover:bg-red-100 transition duration-300"> submit </button>
+           </div>
+      
+           <h6 class="text-gray-400 font-italic text-center my-10"> order from us </h6>
+        </section>
+        <!-- Footer Section starts -->
+        <footer class="bg-orange-100 py-10 mt-20 " style="font-family:Cinzel;">
+            <div class="container mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- About Section -->
+                    <div>
+                        <h3 class="text-red-400 font-bold text-lg mb-4">About Homie</h3>
+                        <p class="text-gray-600">We provide the best tools for your home. Quality and affordability guaranteed.</p>
+                    </div>
+                    <!-- Quick Links -->
+                    <div>
+                        <h3 class="text-red-400 font-bold text-lg mb-4">Quick Links</h3>
+                        <ul class="text-gray-600">
+                            <li><a href="#" class="hover:text-red-400">Home</a></li>
+                            <li><a href="#" class="hover:text-red-400">Shop</a></li>
+                            <li><a href="#" class="hover:text-red-400">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!-- Contact Info -->
+                    <div>
+                        <h3 class="text-red-400 font-bold text-lg mb-4">Contact Us</h3>
+                        <p class="text-gray-600">Email: info@homie.com</p>
+                        <p class="text-gray-600">Phone: +123 456 7890</p>
+                    </div>
+                </div>
+                <div class="text-center mt-10">
+                    <p class="text-gray-600">© 2025 Homie. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+<!-- Footer Section ends -->
+
+    </main>
+</body>
+</html>
